@@ -31,6 +31,11 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        binding.logo.setColorFilter(resources.getColor(R.color.white))
+    }
+
     private fun enterTransition(): Transition? {
         val bounds = ChangeBounds()
         bounds.interpolator = DecelerateInterpolator()

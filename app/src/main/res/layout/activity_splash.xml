@@ -8,7 +8,7 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:id="@+id/motion"
-      tools:context=".MainActivity"
+      tools:context=".SplashActivity"
       android:background="#fff"
       app:layoutDescription="@xml/activity_main_scene"
       >
